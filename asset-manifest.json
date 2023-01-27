@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nixlive/static/css/main.61387bb4.css",
+    "main.js": "/nixlive/static/js/main.bdbe9256.js",
+    "static/media/bg-texture.jpg": "/nixlive/static/media/bg-texture.5a8d9f9a4c2702ee1d19.jpg",
+    "static/media/shoes.gif": "/nixlive/static/media/shoes.fec10f1623343965106c.gif",
+    "static/media/dribbble_1.gif": "/nixlive/static/media/dribbble_1.181c5a6430bcb77324b1.gif",
+    "static/media/banner.png": "/nixlive/static/media/banner.d4c55e5a38ffc1025687.png",
+    "static/media/default-product.png": "/nixlive/static/media/default-product.cf2b00a4c925f0319b0e.png",
+    "static/media/Applogo-removebg-preview.png": "/nixlive/static/media/Applogo-removebg-preview.b9d427aaa0aad076428a.png",
+    "static/media/NIX_logo.png": "/nixlive/static/media/NIX_logo.772913128297fa65d6bd.png",
+    "index.html": "/nixlive/index.html",
+    "static/media/stocks.e619d9fb.svg": "/nixlive/static/media/stocks.e619d9fb.558560f2ed47af85218287f86f6e670a.svg",
+    "main.61387bb4.css.map": "/nixlive/static/css/main.61387bb4.css.map",
+    "main.bdbe9256.js.map": "/nixlive/static/js/main.bdbe9256.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61387bb4.css",
+    "static/js/main.bdbe9256.js"
+  ]
+}
