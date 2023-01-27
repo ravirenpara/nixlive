@@ -1,0 +1,74 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/react": "^4.4.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@material-table/core": "^5.1.7",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.10",
+    "@mui/x-data-grid": "^5.17.7",
+    "@mui/x-date-pickers": "^5.0.6",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.2",
+    "custom-image-loader": "0.0.1",
+    "firebase": "^8.8.0",
+    "hybrid-crypto-js": "^0.2.4",
+    "jquery": "^3.6.1",
+    "material-icons": "^1.12.0",
+    "material-ui-popup-state": "^4.1.0",
+    "material-ui-upload": "^1.2.1",
+    "mdb-react-ui-kit": "^2.3.0",
+    "mdb-ui-kit": "^3.10.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-google-flight-datepicker": "^0.1.20",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.3.1",
+    "react-image-loadr": "^0.1.1",
+    "react-images-uploading": "^3.1.7",
+    "react-notifications-menu": "^1.0.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-scrollbars-custom": "^4.1.1",
+    "react-spinners": "^0.11.0",
+    "react-toastify": "^9.1.1",
+    "reactstrap": "^9.1.5",
+    "rsuite": "^5.22.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

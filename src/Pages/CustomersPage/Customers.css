@@ -1,0 +1,76 @@
+.UserProfileImg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.UserProfileCard{
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 2px 10px 0px #00000047;
+    border-radius: 50%;
+}
+
+.UserProfileCard:hover > p.ProfileUploadImgTitle{
+    opacity: 1;
+    transition: 0.8s  ease-out all;
+    font-size: 16px;
+}
+.ChangePOrfileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+}
+.CustomerBody {
+    padding: 120px 1.5rem 130px;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: #fafafabd;
+   
+    
+}
+.form-control-product {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px; */
+    align-items: center;
+}
+
+.MuiDataGrid-toolbarContainer {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+}
+.MuiDataGrid-toolbarContainer > button {
+    font-size: 13px;
+    color: #000;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.MuiDataGrid-selectedRowCount {
+    visibility: hidden;
+    pointer-events: none;
+}
+.CustomerOrderContainer .MuiBox-root {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .ChangePOrfileCard {
+        width: 100%;
+    }
+    .form-control-product > .multipal-image {
+        width: 100%;
+    }
+    .Products .product-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0 5% 0;
+    }
+}

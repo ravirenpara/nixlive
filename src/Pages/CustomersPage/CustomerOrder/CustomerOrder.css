@@ -1,0 +1,32 @@
+.MuiTabs-flexContainer {
+    gap: 2rem;
+    /* padding: 0 20px; */
+    /* overflow: auto; */
+}
+
+.tab-content .MuiBox-root {
+    padding: 0;
+}
+
+.MuiTabs-flexContainer button {
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    color: #000;
+    border-radius: 15px;
+}
+
+span.MuiTabs-indicator {
+    display: none;
+}
+
+.MuiTabs-flexContainer button.Mui-selected {
+    border-bottom: none;
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    color: #000;
+    box-shadow: inset 7px -6px 2px 0px #6e6e6e40;
+    border-bottom: 1px solid #0000001f;
+    border-radius: 15px;
+}

@@ -1,0 +1,102 @@
+.upload-container {
+  background-color: rgb(224, 223, 223);
+  height: 100px;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.MultipalImages {
+    padding: 15px 20px;
+}
+
+.MultipalImages .ImagesDisplay {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -10px;
+}
+
+.MultipalImages .ImagesDisplay .image-grid:has(.image-item) {
+    padding: 5% 0;
+    width: 100%;
+}
+
+.MultipalImages .ImagesDisplay .image-item {
+  width: 33.33% !important;
+  margin: 0 !important;
+  padding: 0 10px;
+  position: relative;
+  margin-bottom: 20px !important;
+}
+
+.MultipalImages .ImagesDisplay .image-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.MultipalImages .ImagesDisplay .image-item .btn-group {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.MultipalImages .ImagesDisplay .image-item .btn-group button.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: none;
+    color: #FFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.MultipalImages .ImagesDisplay .image-item .btn-group button.update.btn {
+    background-color: #198754;
+}
+
+.MultipalImages .ImagesDisplay .image-item .btn-group button.delete.btn {
+    background-color: #fa4e4e;
+}
+.MultipalImages .delete-all button.upload.btn {
+    display: none;
+}
+
+.MultipalImages .delete-all button.btn {
+    padding: 10px 25px;
+    background-color: #0000;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 300;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    cursor: pointer;
+    background-color: #6a6c73;
+}
+
+.MultipalImages .delete-all button.btn:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+@media screen and (max-width: 1024px) {
+    .MultipalImages .ImagesDisplay .image-item {
+        width: 50% !important;
+    }
+    .MultipalImages .ImagesDisplay .image-item img {
+        height: 140px;
+    }
+}

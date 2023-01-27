@@ -1,0 +1,305 @@
+.DashBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.DashbordFirstRow {
+    display: grid;
+    grid-template-columns: 62% 35%;
+    justify-content: center;
+    align-items: flex-start;
+    grid-gap: 2.8rem;
+    grid-gap: 2.8rem;
+    gap: 2.8rem;
+}
+.DashbordAnalytics {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    gap: 2rem;
+    text-align: center;
+}
+.DashbordAnalytics > .insidedashbordsection2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.DashbordAnalytics > .insidedashbord {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+.DashbordAnalytics > .insidedashbord .anyliticsofdb {
+    gap: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(94, 53, 177);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 15px;
+    height: 11rem;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 26px;
+    box-shadow: -4px 2px 7px 1px #0000004a;
+}
+.DBImageBG {
+    background-color: rgb(12 5 35 / 36%);
+    padding: 8px;
+    border-radius: 10px;
+}
+.DBImageBG > svg {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    color: #fff;
+}
+.DashbordAnalytics > .insidedashbord .anyliticsofdb::before{
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: rgb(69, 39, 160);
+    border-radius: 50%;
+    top: -125px;
+    right: -15px;
+    opacity: 0.5;
+}
+.DashbordAnalytics > .insidedashbord .anyliticsofdb::after{
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: rgb(69, 39, 160);
+    border-radius: 50%;
+    top: -85px;
+    right: -95px;
+}
+.DashbordAnalytics > .insidedashbordsection2 .anyliticsofdb{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;;
+    color: #FFF;
+    border-radius: 15px;
+    height: 11rem;
+    padding: 20px 25px;
+    box-shadow: -4px 2px 7px 1px #0000004a;
+    background: linear-gradient(45deg, rgb(35 84 150) 0%, rgb(81 175 249) 100%);
+
+}
+.DashbordAnalytics .insidedashbord .anyliticsofdb:nth-child(2){
+    background-color: rgb(0 65 99);
+}
+.DashbordOrderAnalytics {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    text-align: center;
+    
+}
+.DashbordOrderAnalytics > .orderanylitics{
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 26px 25px;
+    height: 11rem;
+    box-shadow: -4px 2px 7px 1px #0000004a;
+    background: linear-gradient(45deg, rgb(39 91 158) 24%, #2dd4bf 100%);
+    color: #FFF;
+}
+.icontextinside {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.icontextinsidenew {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    padding-top: 2%;
+}
+.icontplushtextflex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 1;
+}
+.icontextinsidenew > h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.icontextinsidenew > p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.icontplushtextflexsec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.icontplushtextflexsec > div:nth-child(2) {
+    display: flex;
+    gap: 8px;
+}
+
+.icontplushtextflexthired {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.iconplushtextinsidenew {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.DBImageBGAanyalitics {
+    background: #cfcfcf;
+    background-color: rgb(12 5 35 / 36%);
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.iconplushtextinsidenew > h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.iconplushtextinsidenew > p {
+    font-size: 16px;
+}
+.icontextinside div > h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.icontplushtextflex > p {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.anyliticsofdb > p {
+    font-family: sans-serif;
+}
+
+.icontextinsidenewthierd > h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.icontextinsidenewthierd > p {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.icontplushtextflexsecthierd {
+    padding-bottom: 5px;
+}
+
+.icontextinsidenewthierd {
+    align-items: flex-start;
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.iconovergroth {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icontplushtextflexthired > img{
+    width: 30px;
+}
+
+.DashbordSeconfRow {
+    margin-top: 5%;
+    background-color: #fff;
+    padding: 20px 25px 35px 25px;
+    border-radius: 15px;
+    box-shadow: -4px 2px 7px 1px #0000000f;
+}
+.title_text_dashboard {
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0 2%;   
+}
+
+.DashbordSeconfRow div > .MuiDataGrid-root {
+    border-bottom: 1px solid #0000;
+    border: none !important;
+    box-shadow: none;
+}
+.DashbordSeconfRow .MuiDataGrid-footerContainer {
+    display: none;
+}
+
+.DashbordSeconfRow div[data-field="productId"] {
+    display: grid !important;
+    grid-template-columns: auto;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .DashbordFirstRow {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .DashbordSeconfRow {
+        margin-top: 7%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .DashbordAnalytics > .insidedashbord {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2rem;
+        gap: 2rem;
+    }
+    .DashbordAnalytics > .insidedashbordsection2 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2rem;
+        gap: 2rem;
+    }
+    .DashbordOrderAnalytics > .orderanylitics{
+        padding: 25px 13px;
+        gap: 1rem;
+        color: #fff;
+    }
+    .DashbordOrderAnalytics {
+        gap: 0.9rem;
+        grid-template-columns: 47% auto;
+    }
+    .iconovergroth{
+        width: auto;
+    }
+    .icontextinsidenewthierd > p {
+        font-size: 14px;
+    }
+}

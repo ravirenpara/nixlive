@@ -1,0 +1,237 @@
+a.common-button {
+    padding: 15px 25px;
+    background-color: #696b72;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 20px;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    -webkit-transition: 0.4s ease all;
+    -moz-transition: 0.4s ease all;
+    -ms-transition: 0.4s ease all;
+    -o-transition: 0.4s ease all;
+    transition: 0.4s ease all;
+}
+
+a.common-button:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+a.common-button.active {
+    background-color: var(--black);
+    color: #FFFFFF;
+}
+
+button.MuiButtonBase-root.aply-Btn-Lnk.button-full {
+    width: 100%;
+}
+
+.pad-20 {
+    padding: 28px;
+}
+
+.data-dropdown ul.MuiList-root.MuiList-padding.MuiMenu-list  {
+    width: 400px !important;
+    padding: 0;
+}
+
+.data-dropdown .drwdownMenus {
+    padding-bottom: 0;
+}
+
+form.category-form {
+    width: 100%;
+}
+
+form.category-form {
+    width: 100%;
+}
+
+.category-form .form-control input {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    height: 50px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #414141;
+    margin: 0;
+}
+
+.category-form .form-control {
+    padding-bottom: 20px;
+}
+
+.category-form .form-control select.form-select {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    height: 50px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #414141;
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../Images/Down.png);
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-size: 15px;
+}
+
+
+.delete-data-model {
+    width: 800px !important;
+    text-align: center;
+    border: none !important;
+    border-radius: 30px !important;
+}
+
+.delete-data-model svg {
+    font-size: 60px;
+    margin-bottom: 3%;
+    color: #f05252;
+}
+
+.delete-data-model .model-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #414141;
+    margin-bottom: 2%;
+}
+
+.delete-data-model .model-text h2 strong {
+    color: #f05252;
+    font-weight: 600;
+}
+
+.delete-data-model .model-text {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #9d9292;
+    margin-bottom: 5%;
+}
+
+.delete-data-model .model-text p {
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.delete-data-model .model-button button {
+    margin: 0 2%;
+    font-size: 18px !important;
+}
+
+.delete-data-model .model-button button.green {
+    background-color: #0e9f6e !important;
+    color: #FFFFFF !important;
+}
+
+.CustomerOrderContainer.brands-category-page {
+    position: relative;
+}
+.innerpage-top.brand_ceteg_design {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.brand_ceteg_design .edit-button {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.brand_ceteg_design .searchbaar {
+    margin-top: 70px;
+}
+.brandCatSearch {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .brand-category-page .MuiDataGrid-columnHeadersInner {
+        width: 100% !important;
+    }
+
+    .brand-category-page .MuiDataGrid-columnHeadersInner > div[role="row"] {
+        width: 100% !important;
+    }
+
+    .brand-category-page .MuiDataGrid-columnHeadersInner > div[role="row"]>div {
+        max-width: 20% !important;
+        min-width: 20% !important;
+    } 
+
+     .brand-category-page .MuiDataGrid-cell:not(:last-child) {
+        width: 20% !important;
+        max-width: 100% !important;
+        flex: none;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    .delete-data-model {
+        width: 80% !important;
+    }
+    .delete-data-model .model-text h2 {
+        font-size: 24px;
+    }
+    .delete-data-model .model-text p {
+        font-size: 14px;
+    }
+    .brandCatSearch {
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .brand_ceteg_design .searchbaar {
+        display: none;
+    }
+    .brandCatSearch input ,.brandCatSearch .MuiInputBase-root {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .data-dropdown ul.MuiList-root.MuiList-padding.MuiMenu-list  {
+        width: 320px !important;
+    }
+
+    a.common-button {
+        padding: 11px 25px;
+    }
+    .delete-data-model {
+        width: 95% !important;
+        padding: 20px !important;
+    }
+    
+    .delete-data-model .model-text h2 {
+        font-size: 20px;
+    } 
+    .brand_ceteg_design .title_text, .product-wrapper {
+        padding: 2% 0 7% 0 !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .CustomerOrderContainer.brands-category-page .title_text {
+        padding-bottom: 80px !important;
+    }
+    
+    .innerpage-top.brand_ceteg_design {
+        right: unset;
+        top: 55px;
+    }
+}

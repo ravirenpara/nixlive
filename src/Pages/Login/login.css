@@ -1,0 +1,171 @@
+.loginSection {
+    background: #4B111A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginSection .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+}
+.loginSection .login-box {
+    width: 1000px;
+    padding: 50px;
+    background: hsl(0deg 0% 0% / 30%);
+    border-radius: 50px;
+    z-index: 1;
+}
+.loginSection .login-box .col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.loginSection .login-block h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-bottom: 8%;
+}
+.loginSection .login-block .login-form .form-control {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+}
+.loginSection .login-block .login-form label {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.loginSection .login-block .login-form .form-control input {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    height: 50px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 18px;
+    border: none;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.loginSection .login-block .login-form .form-control .loginSection input[type="checkbox"] {
+    width: auto;
+}
+.loginSection input[type="checkbox"] {
+    display: none;
+}
+.loginSection .login-block .login-form .checkbox {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginSection input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.loginSection input[type="checkbox"] + label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.loginSection input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    top: 33%;
+    left: 5px;
+    transform: rotate(-45deg);
+    width: 11px;
+    height: 4px;
+    border-left: 2px solid #FFF;
+    border-bottom: 2px solid #fff;
+    visibility: hidden;
+}
+.loginSection input[type="checkbox"]:checked + label::before {
+    visibility: visible;
+}
+.loginSection .login-block .login-form .checkbox a.forget-pass {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-decoration: none;
+}
+.loginSection .login-form button {
+    background-color: #FFFFFF !important;
+    padding: 10px 50px !important;
+    float: right;
+}
+.loginSection .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.5;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+p.error {
+    font-size: 14px;
+    color: #F00;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .loginSection .login-box {
+        width: 90%;
+    }
+    .loginSection .login-block h2 {
+        margin-bottom: 6%;
+    }
+    .loginSection .login-block .login-form .form-control input {
+        height: 40px;
+        font-size: 16px;
+    }
+    .loginSection .login-block .login-form label {
+        font-size: 14px;
+    }
+    .loginSection .login-form button {
+        padding: 4.25px 40px !important;
+        font-size: 14px !important;
+        border-radius: 10px !important;
+    }
+    .loginSection .login-block .login-form .checkbox a.forget-pass {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .loginSection .login-box .col-6 {
+        width: 100%;
+    }
+    .loginSection {
+        height: auto;
+        padding: 10% 0;
+    }
+    .loginSection .login-box {
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .loginSection .login-box img.banner-image {
+        margin-bottom: 15%;
+    }
+}
+

@@ -1,0 +1,97 @@
+.roles-dropdown  .title {
+    margin-bottom: 3%;
+}
+.roles-dropdown .roles-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+.roles-dropdown .roles-row .form-check {
+    width: 50%;
+    margin-bottom: 5%;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"] {
+    display: none;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"] + label::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 18px;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+    visibility: hidden;
+    z-index: 1;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"]:checked + label::before {
+    visibility: visible;
+}
+.roles-dropdown .roles-row .form-check input[type="checkbox"]:checked + label::after {
+    background-color: #ededed;
+}
+.title_text.roles-header {
+    position: relative;
+}
+.title_text.roles-header .edit-button {
+    position: absolute !important;
+    right: 0;
+    visibility: hidden;
+    pointer-events: none;
+} 
+
+@media screen and (min-width: 1024px) { 
+    .roles-page .MuiDataGrid-columnHeadersInner {
+        width: 100% !important;
+    }
+    .roles-page .MuiDataGrid-columnHeadersInner > div[role="row"] {
+        width: 100% !important;
+    }
+    .roles-page .MuiDataGrid-columnHeadersInner > div[role="row"] > div {
+        max-width: 33.33% !important;
+        min-width: 33.33% !important;
+    }
+    .roles-page .MuiDataGrid-cell:not(:last-child) {
+        width: 33.33% !important;
+        max-width: 100% !important;
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .roles-dropdown .roles-row .form-check {
+        width: 100%;
+    }
+    .roles-page .title_text, .product-wrapper {
+        padding: 2% 0 1% 0 !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .roles-dropdown .roles-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 6% 0;
+        gap: 0.5rem;
+    }
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width:767px) {
+    .employees-page .title_text, .product-wrapper {
+        padding: 2% 0 1% 0 !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem;
+    }
+    
+}
+
+/* validation */
+span.err {
+    color: red;
+    padding: 6px;
+    display: inline-block;
+}
+
+.title_text{
+    position: relative;
+}
+button.edit-button{
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    pointer-events: none;
+}

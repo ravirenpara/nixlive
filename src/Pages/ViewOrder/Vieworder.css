@@ -1,0 +1,392 @@
+.ViewOrderContainer {
+    display: grid;
+    grid-template-columns: 73% 25%;
+    padding: 10px;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.OrderSummery>.OrderDetaiks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordersummery > h1 {
+    font-size: 35px;
+}
+
+.ordersummery>span {
+    color: gray;
+}
+
+.ordersummery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.OrderSummery {
+    height: auto;
+    border: 1px solid #00000029;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.MuiOutlinedInput-notchedOutline legend {
+    float: unset;
+    width: auto;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    height: 11px;
+    font-size: 2.75em !important;
+    visibility: hidden;
+    max-width: 100%;
+    -webkit-transition: max-width 100ms cubic-bezier(0.0, 0, 0.2, 1) 50ms;
+    transition: max-width 100ms cubic-bezier(0.0, 0, 0.2, 1) 50ms;
+    white-space: nowrap;
+}
+
+.ordersummerydetai .MuiBox-root {
+    min-width: 200px !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    width: 200px !important;
+}
+.MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input {
+    padding-right: 32px;
+    padding: 15px 15px !important;
+}
+
+
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+    display: flex;
+    background-color: #f6f6f685;
+    padding: 10px 20px !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.ShippingStatus {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0 0;
+
+}
+
+.shippindinfo {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contactinfo > div {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfo > div > span {
+    color: gray;
+    font-size: 16px;
+}
+
+.vl {
+    border: 1px solid rgb(36 45 73 / 20%);
+}
+
+.spanmodifyshpID {
+    text-align: center;
+    background-color: #ffffff3d;
+    padding: 12px;
+    margin-top: 6%;
+    border-radius: 5px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+h4.userorderinfodetails {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+.OrderStatus{
+    height: auto;
+    border: 1px solid #00000029;
+    padding: 30px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    
+}
+
+li.MuiListItem-root.MuiListItem-gutters {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.orderdetailinside {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    position: relative;
+}
+
+/* ul.MuiList-root.MuiList-padding::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    top: 61%;
+    height: 100px;
+    left: 27px;
+    background-color: rgb(36 45 73 / 20%);
+} */
+ul.MuiList-root.MuiList-padding {
+    padding-top: 10px !important;
+    padding-bottom: 12px;
+}
+
+.orderdetailinside > ul:last-child::before{
+    display: none;
+}
+
+.BoldTextFiled > span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.GivenOrderItems{
+    height: auto;
+    border: 1px solid #00000029;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.flexWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthMd {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.OrderItemCustomize {
+    display: flex;
+    gap: 1rem;
+    width: 250px;
+}
+td.MuiTableCell-root.MuiTableCell-body.OrderItemCustomize > img {
+    width: 50px;
+    object-fit: contain;
+    height: 50px;
+}
+
+.GivenOrderItems .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+    box-shadow: none !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+thead.MuiTableHead-root.TableHeadCompt tr > th {
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 25%;
+    
+}
+tr.MuiTableRow-root.orderTotal > td {
+    border: none;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.orderTotal.MuiTableCell-alignRight {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.MuiTableContainer-root.TableContainer {
+    border: 1px solid
+    rgba(224, 224, 224, 1);
+    border-radius: 20px;
+}
+.update-btn {
+    border: 2px solid #030626 !important;
+    border-radius: 20% !important;
+    margin-left: 8px !important;
+    background-color: #030626 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    border-width: 1px !important;
+}
+.update-btn.MuiButtonBase-root.MuiIconButton-root:hover {
+    background-color: #030626 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+}
+.OrderDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.update-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    width: 230px;
+}
+
+@media screen and (max-width: 1200px) {
+    .ViewOrderContainer {
+        grid-template-columns: auto;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    
+    .ViewOrderContainer .flexWrap {
+        width: 100%;
+    }
+    
+    .ViewOrderContainer .OrderStatus {
+        width: 100%;
+    }
+}
+
+.shippindinfo .update {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+input.modifyshpID {
+    width: 70%;
+    padding: 15px 10px;
+    background-color: #e5e5e5;
+    border: none;
+    color: #000;
+    border-radius: 0.375rem;
+}
+
+
+.orderdetailinside#status1 ul:first-child .BoldTextFiled > span,
+.orderdetailinside#status2 ul:first-child .BoldTextFiled > span,
+.orderdetailinside#status2 ul:nth-child(2) .BoldTextFiled > span,
+.orderdetailinside#status3 ul:first-child .BoldTextFiled > span,
+.orderdetailinside#status3 ul:nth-child(2) .BoldTextFiled > span,
+.orderdetailinside#status3 ul:last-child .BoldTextFiled > span {
+    color: green;
+}
+.orderdetailinside#status1 ul:first-child .MuiListItemIcon-root,
+.orderdetailinside#status2 ul:first-child .MuiListItemIcon-root,
+.orderdetailinside#status2 ul:nth-child(2) .MuiListItemIcon-root,
+.orderdetailinside#status3 ul:first-child .MuiListItemIcon-root,
+.orderdetailinside#status3 ul:nth-child(2) .MuiListItemIcon-root,
+.orderdetailinside#status3 ul:last-child .MuiListItemIcon-root {
+    color: green;
+}
+.orderdetailinside > ul .MuiListItemIcon-root {
+    position: relative;
+}
+.orderdetailinside > ul .MuiListItemIcon-root::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 9px;
+    width: 2px;
+    height: 100px;
+    background-color: #80808080;
+}
+.orderdetailinside#status2 > ul:first-child .MuiListItemIcon-root::after {
+    background-color: green;
+}
+
+.orderdetailinside#status3 > ul:first-child .MuiListItemIcon-root::after,
+.orderdetailinside#status3 > ul:nth-child(2) .MuiListItemIcon-root::after {
+    background-color: green;
+}
+.orderdetailinside > ul:last-child .MuiListItemIcon-root::after {
+    display: none;
+}
+.order-status {
+    padding: 15px 20px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 0.375rem;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACSSURBVHgBlZK7DYQwEERn10dOCbRynTgk5Dq58LKjE0qgBcpAgA0YC8THy2fC8bwnWVrSOouBOs7zX4UHmTlm1fwpUoXWaXIfThOK2hIv/rI19gML3JV4WBWOQWczWko1lgz0rXlL31nDvfE72jyeSEKw6+kwCkgk+CAISaaRAAcFe8kUARYFGwlk+DJO4g9GzgDAI24oGi6OXAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    background-size: 15px;
+}
+
+@media screen and (max-width: 1023px){
+    .contactinfo{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+    .ShippingStatus {
+        padding: 8% 0 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .OrderSummery>.OrderDetaiks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .ShippingStatus {
+        padding: 8% 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactinfo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 4% 0 12% 0px;
+    }
+    .vl {
+        border: 1px solid rgb(180 184 196 / 14%);
+    }
+    .update-status, .OrderDetails {
+        gap: 20px;
+    }
+    .ordersummery > h1 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .GivenOrderItems {
+        height: auto;
+        border: 1px solid #00000029;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #fff;
+    }
+}

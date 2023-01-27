@@ -1,0 +1,366 @@
+.MuiDataGrid-columnHeader--alignRight .MuiDataGrid-columnHeaderDraggableContainer, 
+.MuiDataGrid-columnHeader--alignRight .MuiDataGrid-columnHeaderTitleContainer {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row !important;
+    display: flex;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-start !important;
+}
+
+.Order {
+    background-color: Grey/Grey 5;
+}
+
+.title_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 3% 0;
+}
+
+button.MuiButtonBase-root.order_export {
+    padding: 10px 25px;
+    background-color: #0000;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+}
+
+.MuiButton-startIcon>*:nth-of-type(1) {
+    font-size: 25px;
+    padding-bottom: 12%;
+}
+
+.active_btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 3% 0;
+}
+
+.explore_btns {
+    display: flex;
+    gap: 20px;
+}
+
+.searchbaar {
+    display: flex;
+    border-bottom: 1px solid #d4d4d478;
+    border-radius: 10px;
+}
+
+.serach_icon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #00000078;
+}
+
+.drwdownMenus {
+    display: flex;
+    gap: 5%;
+    padding: 0 0 7%;
+}
+
+.drwTitle {
+    padding: 15px 5px 20px;
+}
+
+.drwTitle>h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.allStetus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allStetus .status-item {
+    width: 47.5%;
+}
+
+input.MuiInputBase-input {
+    width: 50ch;
+
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.primaryBtn {
+    padding: 10px 25px;
+    background-color: #0000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+}
+
+button.MuiButtonBase-root.MuiButton-containedPrimary.MuiButton-sizeMedium.fillter_btn {
+    padding: 10px 25px;
+    background-color: #484a53cf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+}
+
+.MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.fillter>.MuiList-root.MuiList-padding.MuiMenu-list {
+    width: 500px !important;
+
+}
+
+.MuiPaper-root.MuiPopover-paper {
+    margin-top: 1%;
+
+}
+
+.section_p_20 {
+    padding: 28px;
+    width: 500px !important;
+}
+
+
+button.MuiButtonBase-root.rst-Btn-Lnk {
+    padding: 10px 25px;
+    background-color: #484a53cf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+    width: 25%;
+}
+
+button.MuiButtonBase-root.aply-Btn-Lnk {
+    padding: 10px 20px;
+    background-color: var(--AppBg);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-transform: none;
+    width: 75%;
+}
+
+.HL {
+    color: #e5e7eb;
+    border: 1px solid;
+}
+
+.allStetus .status-item input[type="checkbox"] {
+    display: none;
+}
+
+.allStetus .status-item input[type="checkbox"]+label {
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: transparent;
+    color: #000;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 50px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid var(--AppLightBg);
+}
+
+.allStetus .status-item input[type="checkbox"]:checked+label {
+    background-color: var(--black);
+    color: #FFF;
+}
+
+.allStetus .status-item input[type="checkbox"]+label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.allStetus .status-item input[type="checkbox"]#order-place+label::after {
+    background-color: #34D399;
+}
+
+.allStetus .status-item input[type="checkbox"]#shipped+label::after {
+    background-color: #17C7FF;
+}
+
+.allStetus .status-item input[type="checkbox"]#delivered+label::after {
+    background-color: #898989;
+}
+
+.allStetus .status-item input[type="checkbox"]#ready-pickup+label::after {
+    background-color: #FF6B00;
+}
+
+.datePiker {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 28px 15px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.react-datepicker__input-container>input {
+    border: none;
+    outline: none;
+    text-align: end;
+    font-size: 16px;
+    font-family: 'roboto';
+}
+
+.react-datepicker__input-container {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+    border-radius: 15px;
+}
+
+.MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-bottom: 8px;
+}
+
+.MuiIconButton-colorSecondary {
+    color: var(--AppBg) !important;
+}
+
+.datagridtablefororder .MuiDataGrid-cell--withRenderer.MuiDataGrid-cell.MuiDataGrid-cell--textLeft {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+@media screen and (max-width : 1024px) {
+    .pageFilterBar {
+        gap: 0.5rem;
+        /* margin-bottom: 8%; */
+    }
+    /* .pageFilterBar > button {
+        width: 50%;
+    } */
+    .product-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 4% 0;
+    }
+
+    .pageFilterBar .searchbaar {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .active_btns,
+    .productserchBtn {
+        align-items: flex-start;
+        padding: 0 0 10% 0 !important;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 767px) {
+
+    .MuiButton-root.MuiButton-contained.fillter_btn,
+    .MuiButton-root.MuiButton-contained.primaryBtn.order_active,
+    .MuiButton-root.MuiButton-contained.primaryBtn.order_export,
+    .MuiButton-root.MuiButton-text.rst-Btn-Lnk,
+    button.addproduct_btn,
+    .MuiButton-root.MuiButton-contained.primaryBtn.order_active,
+    .ProductFooter > button {
+        padding: 7px 20px !important;
+    }
+
+    .MuiInputBase-root {
+        width: 100%;
+    }
+
+    .MuiInputBase-root input.MuiInputBase-input {
+        width: 100%;
+    }
+
+    .section_p_20 {
+        width: 345px !important;
+    }
+
+    .allStetus {
+        flex-wrap: wrap;
+    }
+
+    .allStetus .status-item {
+        width: 100%;
+    }
+    .product-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 5% 0;
+    }
+    .allStetus .status-item input[type="checkbox"]+label {
+        padding: 10px 20px;
+        padding-left: 50px;
+    }
+
+    .explore_btns {
+        gap: 10px;
+        /* margin-bottom: 4%; */
+    }
+
+    .title_text,
+    .product-wrapper {
+        padding: 1% 0 3% 0 !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .title_text h1,
+    .product-wrapper h1 {
+        margin-bottom: 5%;
+        font-size: 26px;
+    }  
+    .drwTitle>h2 {
+        font-size: 18px;
+    } 
+    
+}
+
+@media only screen and (max-width:374px) {
+    .section_p_20 {
+        width: 290px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .react-google-flight-datepicker .dialog-date-picker {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        pointer-events: none;
+    }
+    .react-google-flight-datepicker .dialog-date-picker.open {
+        pointer-events: all;
+    }
+}
